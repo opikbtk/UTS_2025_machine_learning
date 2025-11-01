@@ -1,0 +1,21 @@
+# Jupyter and artifacts
+.ipynb_checkpoints/
+*.ipynb
+!uts.ipynb
+
+# Data files (exclude large datasets)
+*.csv
+!bank-additional-full.csv
+
+# Plots and images
+*.png
+!confusion_matrices.png
+!roc_curves.png
+
+# Documents
+*.pdf
+!laporan jawaban.pdf
+
+# OS / editor junk
+*.DS_Store
+Thumbs.db
